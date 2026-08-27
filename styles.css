@@ -1623,13 +1623,15 @@ code {
 }
 
 .card-delayed {
-    opacity: 0.75;
-    filter: grayscale(0.2);
+    opacity: 0.5;
+    filter: grayscale(0.85);
     position: relative;
+    transition: var(--trans-smooth);
 }
 
 .card-delayed:hover {
-    opacity: 0.9;
+    opacity: 0.65;
+    filter: grayscale(0.5);
 }
 
 .status-badge {
